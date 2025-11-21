@@ -1,0 +1,196 @@
+export interface Abbreviation {
+  id: string;
+  abbr: string;
+  fullForm: string;
+  description: string;
+  category: string;
+}
+
+export const categories = [
+  "All",
+  "Cardiology",
+  "Neurology",
+  "General Medicine",
+  "Surgery",
+  "Radiology",
+  "Pharmacy",
+  "Laboratory",
+];
+
+export const abbreviations: Abbreviation[] = [
+  {
+    id: "1",
+    abbr: "MI",
+    fullForm: "Myocardial Infarction",
+    description: "Commonly known as a heart attack, occurs when blood flow to the heart is blocked.",
+    category: "Cardiology",
+  },
+  {
+    id: "2",
+    abbr: "BP",
+    fullForm: "Blood Pressure",
+    description: "The pressure of circulating blood against the walls of blood vessels.",
+    category: "Cardiology",
+  },
+  {
+    id: "3",
+    abbr: "ECG",
+    fullForm: "Electrocardiogram",
+    description: "A test that measures the electrical activity of the heart.",
+    category: "Cardiology",
+  },
+  {
+    id: "4",
+    abbr: "CVA",
+    fullForm: "Cerebrovascular Accident",
+    description: "Commonly known as a stroke, caused by interrupted blood flow to the brain.",
+    category: "Neurology",
+  },
+  {
+    id: "5",
+    abbr: "CNS",
+    fullForm: "Central Nervous System",
+    description: "The brain and spinal cord.",
+    category: "Neurology",
+  },
+  {
+    id: "6",
+    abbr: "MRI",
+    fullForm: "Magnetic Resonance Imaging",
+    description: "A medical imaging technique using magnetic fields and radio waves.",
+    category: "Radiology",
+  },
+  {
+    id: "7",
+    abbr: "CT",
+    fullForm: "Computed Tomography",
+    description: "An imaging procedure that uses X-rays to create detailed pictures.",
+    category: "Radiology",
+  },
+  {
+    id: "8",
+    abbr: "PRN",
+    fullForm: "Pro Re Nata (As Needed)",
+    description: "Medication to be taken as needed, not on a fixed schedule.",
+    category: "Pharmacy",
+  },
+  {
+    id: "9",
+    abbr: "QD",
+    fullForm: "Quaque Die (Once Daily)",
+    description: "Medication to be taken once per day.",
+    category: "Pharmacy",
+  },
+  {
+    id: "10",
+    abbr: "CBC",
+    fullForm: "Complete Blood Count",
+    description: "A blood test measuring various components of blood.",
+    category: "Laboratory",
+  },
+  {
+    id: "11",
+    abbr: "BMP",
+    fullForm: "Basic Metabolic Panel",
+    description: "A blood test that measures glucose, calcium, and electrolytes.",
+    category: "Laboratory",
+  },
+  {
+    id: "12",
+    abbr: "OR",
+    fullForm: "Operating Room",
+    description: "A facility within a hospital where surgical procedures are performed.",
+    category: "Surgery",
+  },
+  {
+    id: "13",
+    abbr: "ICU",
+    fullForm: "Intensive Care Unit",
+    description: "A specialized hospital unit for critically ill patients.",
+    category: "General Medicine",
+  },
+  {
+    id: "14",
+    abbr: "ED",
+    fullForm: "Emergency Department",
+    description: "Hospital department for urgent medical care.",
+    category: "General Medicine",
+  },
+  {
+    id: "15",
+    abbr: "NPO",
+    fullForm: "Nil Per Os (Nothing By Mouth)",
+    description: "Medical instruction to withhold food and fluids.",
+    category: "General Medicine",
+  },
+  {
+    id: "16",
+    abbr: "COPD",
+    fullForm: "Chronic Obstructive Pulmonary Disease",
+    description: "A chronic inflammatory lung disease causing obstructed airflow.",
+    category: "General Medicine",
+  },
+  {
+    id: "17",
+    abbr: "DM",
+    fullForm: "Diabetes Mellitus",
+    description: "A group of metabolic disorders characterized by high blood sugar.",
+    category: "General Medicine",
+  },
+  {
+    id: "18",
+    abbr: "HTN",
+    fullForm: "Hypertension",
+    description: "Abnormally high blood pressure.",
+    category: "Cardiology",
+  },
+  {
+    id: "19",
+    abbr: "CAD",
+    fullForm: "Coronary Artery Disease",
+    description: "A disease in which plaque builds up inside the coronary arteries.",
+    category: "Cardiology",
+  },
+  {
+    id: "20",
+    abbr: "TIA",
+    fullForm: "Transient Ischemic Attack",
+    description: "A temporary period of symptoms similar to those of a stroke.",
+    category: "Neurology",
+  },
+  {
+    id: "21",
+    abbr: "EEG",
+    fullForm: "Electroencephalogram",
+    description: "A test that detects electrical activity in the brain.",
+    category: "Neurology",
+  },
+  {
+    id: "22",
+    abbr: "US",
+    fullForm: "Ultrasound",
+    description: "Imaging technique using high-frequency sound waves.",
+    category: "Radiology",
+  },
+  {
+    id: "23",
+    abbr: "PO",
+    fullForm: "Per Os (By Mouth)",
+    description: "Medication to be taken orally.",
+    category: "Pharmacy",
+  },
+  {
+    id: "24",
+    abbr: "IV",
+    fullForm: "Intravenous",
+    description: "Administered directly into a vein.",
+    category: "Pharmacy",
+  },
+  {
+    id: "25",
+    abbr: "ABG",
+    fullForm: "Arterial Blood Gas",
+    description: "A blood test measuring oxygen and carbon dioxide levels.",
+    category: "Laboratory",
+  },
+];
